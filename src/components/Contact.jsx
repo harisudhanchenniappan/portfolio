@@ -11,9 +11,10 @@ const Contact = () => {
       <Row className="text-center d-flex align-items-center justify-content-center">
         {/* Email */}
         <Col md={3} className="mb-3">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" style={{ color: '#0056b3' }} />
+          
           <p>
             <a href="mailto:harisudhanchenniappan@gmail.com" style={{ textDecoration: 'none', color: '#000' }}>
+            <FontAwesomeIcon icon={faEnvelope} size="2x" style={{ color: '#0056b3' }} /> <br />
               harisudhanchenniappan@gmail.com
             </a>
           </p>
@@ -21,9 +22,10 @@ const Contact = () => {
 
         {/* Phone */}
         <Col md={3} className="mb-3">
-          <FontAwesomeIcon icon={faPhone} size="2x" style={{ color: '#0056b3' }} />
+          
           <p>
             <a href="tel:+7339459340" style={{ textDecoration: 'none', color: '#000' }}>
+            <FontAwesomeIcon icon={faPhone} size="2x" style={{ color: '#0056b3' }} /> <br />
               (+91) 73394-59340 / 76395-49340
             </a>
           </p>
@@ -31,7 +33,7 @@ const Contact = () => {
 
         {/* LinkedIn */}
         <Col md={3} className="mb-3">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" style={{ color: '#0A66C2' }} />
+          
           <p>
             <a
               href="https://www.linkedin.com/in/hari-sudhan-chenniappan-a50127236/"
@@ -39,6 +41,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               style={{ textDecoration: 'none', color: '#000' }}
             >
+              <FontAwesomeIcon icon={faLinkedin} size="2x" style={{ color: '#0A66C2' }} /> <br />
               linkedin.com
             </a>
           </p>
@@ -46,7 +49,7 @@ const Contact = () => {
 
         {/* GitHub */}
         <Col md={3} className="mb-3">
-          <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#181717' }} />
+          
           <p>
             <a
               href="https://github.com/harisudhanchenniappan"
@@ -54,6 +57,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               style={{ textDecoration: 'none', color: '#000' }}
             >
+              <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#181717' }} /> <br />
               github.com/harisudhanchenniappan
             </a>
           </p>
