@@ -32,10 +32,14 @@ const HeroSection = () => {
                   Developed a wedding planner web application to manage venues, guest lists, and vendor coordination.
                   Features include user authentication and dynamic event calendars.
                 </Card.Text>
-                <a href="https://weddingwise009.netlify.app/" className="btn btn-outline-primary me-2">
+                <a href="https://weddingwise009.netlify.app/" className="btn btn-outline-primary me-2"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Project
                 </a>
-                <a href="https://github.com/harisudhanchenniappan/wedding-planner" className="btn btn-outline-secondary">
+                <a href="https://github.com/harisudhanchenniappan/wedding-planner" className="btn btn-outline-secondary"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Source Code
                 </a>
               </Card.Body>
@@ -52,10 +56,14 @@ const HeroSection = () => {
                   Built a Google Forms-inspired application for creating, customizing, and analyzing surveys. Included
                   real-time previews, multiple question types, and analytics dashboards.
                 </Card.Text>
-                <a href="https://reactforms1611.netlify.app/" className="btn btn-outline-primary me-2">
+                <a href="https://reactforms1611.netlify.app/" className="btn btn-outline-primary me-2"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Project
                 </a>
-                <a href="https://github.com/harisudhanchenniappan/react-forms" className="btn btn-outline-secondary">
+                <a href="https://github.com/harisudhanchenniappan/react-forms" className="btn btn-outline-secondary"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Source Code
                 </a>
               </Card.Body>
@@ -72,10 +80,14 @@ const HeroSection = () => {
                   Developed a billing application for small businesses to efficiently manage and generate invoices. It
                   simplifies the billing process with real-time updates and easy access to past invoices.
                 </Card.Text>
-                <a href="https://react-billing-1611.netlify.app/" className="btn btn-outline-primary me-2">
+                <a href="https://react-billing-1611.netlify.app/" className="btn btn-outline-primary me-2"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Project
                 </a>
-                <a href="https://github.com/harisudhanchenniappan/react-billing" className="btn btn-outline-secondary">
+                <a href="https://github.com/harisudhanchenniappan/react-billing" className="btn btn-outline-secondary"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Source Code
                 </a>
               </Card.Body>
@@ -92,10 +104,14 @@ const HeroSection = () => {
                   Developed an e-commerce platform for an online bookstore, offering a smooth, user-friendly browsing
                   experience and efficient shopping cart functionality.
                 </Card.Text>
-                <a href="https://bookhaven1611.netlify.app/" className="btn btn-outline-primary me-2">
+                <a href="https://bookhaven1611.netlify.app/" className="btn btn-outline-primary me-2"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Project
                 </a>
-                <a href="https://github.com/harisudhanchenniappan/e-commerce" className="btn btn-outline-secondary">
+                <a href="https://github.com/harisudhanchenniappan/e-commerce" className="btn btn-outline-secondary"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Source Code
                 </a>
               </Card.Body>
@@ -112,10 +128,14 @@ const HeroSection = () => {
                   Developed a real estate website to showcase plots and homes with an interactive layout and detailed
                   property descriptions.
                 </Card.Text>
-                <a href="https://gvplotsandhomes.netlify.app/" className="btn btn-outline-primary me-2">
+                <a href="https://gvplotsandhomes.netlify.app/" className="btn btn-outline-primary me-2"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Project
                 </a>
-                <a href="https://github.com/harisudhanchenniappan/GV-Plots" className="btn btn-outline-secondary">
+                <a href="https://github.com/harisudhanchenniappan/GV-Plots" className="btn btn-outline-secondary"
+                target="_blank"
+                rel="noopener noreferrer">
                   View Source Code
                 </a>
               </Card.Body>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaDownload } from 'react-icons/fa'; // Import the Font Awesome download icon
 import logo from '../assets/logo2.jpeg';
-import resume from '../assets/Resume_HariSudhan.pdf';
+const resume =  'https://drive.google.com/file/d/1IvGJGJcTaA278Zp4vUD9q5MvaK3C3-fs/view?usp=sharing';
 
 const AboutUs = () => {
   return (
@@ -27,7 +27,6 @@ const AboutUs = () => {
             height="270"
             style={{
               borderRadius: '50%',
-             
             }}
           />
         </Col>
@@ -73,7 +72,11 @@ const AboutUs = () => {
               <strong>Nationality:</strong> Indian
             </li>
           </ul>
-          <a href={resume} download="Resume_Hari (1).pdf">
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               variant="primary"
               className="mt-3 d-flex align-items-center justify-content-center"
@@ -86,7 +89,7 @@ const AboutUs = () => {
               }}
             >
               <FaDownload className="me-2" />
-              Download Resume
+              View Resume
             </Button>
           </a>
         </Col>
