@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaDownload } from 'react-icons/fa'; // Import the Font Awesome download icon
 import logo from '../assets/logo2.jpeg';
-const resume =  'https://drive.google.com/file/d/1IvGJGJcTaA278Zp4vUD9q5MvaK3C3-fs/view?usp=sharing';
+const resume =  'https://drive.google.com/file/d/1u4DHQoMEblFaYn-LPGhCJ27qnBJBt_Aw/view';
 
 const AboutUs = () => {
   return (
